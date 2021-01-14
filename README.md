@@ -3,7 +3,17 @@
 Graphical User Interface in web of python-control. 
 
 
-### Run locally
+# How to run
+
+## Web version
+
+[python-control-web](https://python-control-web.herokuapp.com/)
+
+## Docker version
+
+soon...
+
+## On your computer
 
 ´´´
 git clone https://github.com/DZPeru/python-control-web
