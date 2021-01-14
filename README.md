@@ -1,2 +1,3 @@
-# python-control-gui
-Graphical User Interface in web of python-control app
+# Python Control Web
+
+Graphical User Interface in web of python-control.
