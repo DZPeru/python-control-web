@@ -1,7 +1,8 @@
 import subprocess
 import streamlit as st
 
-font_dir="fonts/Roboto-Medium.ttf"
+font_dir = "fonts/Roboto-Light.ttf" # check "fonts" dir to see all available or go to dafont.com
+
 
 def save_file_diag(filename, data):
 
@@ -22,14 +23,15 @@ def remove_temporals(filename):
         rc = sp.wait()
     except Exception as e:
         st.text(str(e))
-        
+
     return True
+
 
 def generate_png_from_blockdiag(filename):
     # https://www.golinuxcloud.com/python-subprocess/
     # Command as string
     command = ' blockdiag -f {font_dir} {filename}'.format(
-       font_dir=font_dir, filename=filename)
+        font_dir=font_dir, filename=filename)
     # Use shell to execute the command
     sp = subprocess.Popen(command, shell=True)
     # Store the return in rc variable

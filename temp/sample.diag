@@ -1,0 +1,13 @@
+blockdiag {
+  input [width=50];
+  output [width=50];
+  controller [width=70];
+  actuator [width=70];
+  system [width=70];
+
+  operator1 [shape = beginpoint];
+  
+  input -> operator1 -> controller -> actuator -> system  -> output;
+  operator1 <- "-1" <- sensor <- output [color='red'];
+
+}

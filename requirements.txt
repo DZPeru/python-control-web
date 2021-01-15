@@ -1,4 +1,5 @@
 streamlit
 control #python-control
 blockdiag #blockplotter
+requests
 # slycot  #optional

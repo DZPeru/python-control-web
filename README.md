@@ -15,9 +15,11 @@ soon...
 
 ## On your computer
 
-´´´
+Clone, install requirements and run.
+
+```
 git clone https://github.com/DZPeru/python-control-web
 cd python-control-web
 pip install -r requirements.txt # or pip3
 python run app.py # or python3, python3.7
-´´´
+```
